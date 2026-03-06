@@ -11,12 +11,15 @@ const RED: NeoPixelColors = NeoPixelColors.Red
 const YELLOW: NeoPixelColors = NeoPixelColors.Yellow
 const GREEN: NeoPixelColors = NeoPixelColors.Green
 
+
+
 // Initialize display
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
 // Initialize Neopixel strip
-let neopixelStrip: neopixel.Strip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
+const neopixelStrip: neopixel.Strip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
+
 neopixelStrip.setPixelColor(0, BLACK)
 neopixelStrip.setPixelColor(1, BLACK)
 neopixelStrip.setPixelColor(2, BLACK)
