@@ -9,7 +9,7 @@
 const BLACK: NeoPixelColors = NeoPixelColors.Black
 const RED: NeoPixelColors = NeoPixelColors.Red
 const YELLOW: NeoPixelColors = NeoPixelColors.Yellow
-const GREEN: NeoPixelColors = NeoPixelColors.Gree
+const GREEN: NeoPixelColors = NeoPixelColors.Green
 
 // Initialize display
 basic.clearScreen()
